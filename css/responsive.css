@@ -85,6 +85,15 @@
         padding: 10px 14px;
         font-size: 10px;
     }
+    .ides_fot{
+        height: 100px;
+    }
+    .ides_left{
+        margin-top: 30px;
+    }
+    .ides_right{
+        margin-top: 30px;
+    }
     /* ====== ideas area ends ========= */
     .latest_head h2{
         font-size: 20px;
@@ -235,3 +244,571 @@
     }
     /* ========== footer area ends ============== */
 }
+/* ================================= max-width 575.98px area ends ===================== */
+/* =================================  576-767 px area starts ===================== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu_text{
+        display: none;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        background: black;
+        width: 100%;
+    }
+    .menu_icon a.res-1{
+        display: none;
+    }
+    .left_h,.right_h{
+        display: none;
+    }
+    .menu_btn{
+        display: block;
+        margin-top:55px;
+        color: #ffffff;
+        font-size: 25px;
+    }
+    .logo{
+        width: 100px;
+        margin-top:50px;
+    }
+    .menu_text ul{
+        display: block;
+    }
+    .menu_text ul a{
+        padding: 10px 0 10px 10px;
+        display: block;
+    }
+    .header_content h4{
+        font-size: 16px;
+    }
+    .header_content p{
+        font-size: 10px;
+        margin:0 1%;
+        margin-bottom: 52px;
+    }
+    .header_content a{
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+    .header_dots{
+        margin-left:27%;
+    }
+    /* ========== service area starts =-=======*/
+    .service_area{
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+    }
+    /* ========== service area ends =-=======*/
+    /* ====== ideas area starts ========= */
+    .ideas_head h2{
+        font-size: 20px;
+    }
+    .ideas_head p{
+        font-size: 10px;
+    }
+    .ideas_img{
+        max-width: 55%;
+        height: 150px;
+    }
+    .container{
+        /* background: red; */
+    }
+    .ides_sub{
+        height: 150px;
+        top: 10px;
+        left: -41%;
+    }
+    .ides_sub2{
+        height: 150px;
+        top: 10px;
+        right: -41%;
+    }
+    .ides_left h2{
+        font-size: 12px;
+    }
+    .ides_left p{
+        font-size: 10px;
+    }
+    .ides_right a{
+        padding: 10px 14px;
+        font-size: 10px;
+    }
+    .ides_fot{
+        height: 100px;
+    }
+    .ides_left{
+        margin-top: 30px;
+    }
+    .ides_right{
+        margin-top: 30px;
+    }
+        /* ====== ideas area ends ========= */
+        .latest_head h2{
+            font-size: 20px;
+        }
+        .latest_head p{
+            font-size: 10px;
+        }
+        .latest_img{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 30px;
+        }
+        .latest_menu ul{
+            display: block;
+        }
+        .latest_menu ul a{
+            margin-left: 0;
+            margin-bottom: 10px;
+        }
+        .latest_btn a{
+            padding: 10px 20px;
+            font-size: 10px;
+        }
+        /* ========== latest area starts */
+        /* ===========vider area starts ========= */
+        .video_area h2{
+            font-size: 20px;
+        }
+        .video_area p{
+            font-size: 10px;
+        }
+        .video_area a{
+            font-size: 10px;
+        }
+        /* ===========vider area ends ========= */
+        /* =========== excelent area starts =========== */
+        .excelent_area{
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+        }
+        .excelent_right{
+            padding-top: 50px;
+        }
+        .excelent_head h2{
+            font-size: 20px;
+        }
+        .excelent_head p{
+            font-size: 10px;
+        }
+        .single_ex_con p{
+            font-size: 10px;
+        }
+        .single_ex_con i{
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+            font-size: 12px;
+        }
+        /* =========== excelent area ends =========== */
+        /* ============ details area starts =====*/
+        .details_area{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .single_details{
+            text-align: center;
+            margin: 50px 0 40px;
+        }
+        .single_details img{
+            width: 35px;
+        }
+        .single_details a{
+            font-size: 30px;
+        }
+        .single_details p{
+            font-size: 10px;
+        }
+        /* ========= details area ends ======== */
+        /* =========== recent area starts ======= */
+        .recent_head h2{
+            font-size: 20px;
+        }
+        .recent_head p{
+            font-size: 10px;
+        }
+        .recent_all{
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 50px;
+        }
+        /* =========== recent area ends ======= */
+        /* ======== company area starts ========= */
+        .company_area{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 30px;
+            grid-row-gap: 50px;
+        }
+        /* ======== company area ends ========= */
+        /* ======== footer menu area starts ========== */
+        .footer_menu_area{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 30px;
+            padding-bottom: 100px;
+        }
+        .footer_left img{
+            width: 100px;
+        }
+        .footer_left p{
+            font-size: 10px;
+        }
+        .footer_read a{
+            font-size: 10px;
+        }
+        .footer_read i{
+            margin-top: 2px;
+            font-size: 10px;
+        }
+        .footer_left2 h2,
+        .footer_middle h2,
+        .footer_right h2{
+            font-size: 18px;
+        }
+        .footer_left2 span,
+        .footer_middle span{
+            font-size: 10px;
+        }
+        .footer_left2 h2,
+        .footer_middle h2,
+        .footer_right h2{
+            margin: 50px 0 32px;
+        }
+        .footer_left img{
+            width: 190px;
+            margin: 50px 0 25px;
+        }
+        /* ======== footer menu area ends ========== */
+        /* ======= footer area strats =========*/
+        .footer_area{
+            display: flex;
+            justify-content: space-around;
+            line-height:20px;
+            padding: 20px 0;
+        }
+        .footer_l_left ul{
+            display: block;
+        }
+        .footer_l_left a{
+            font-size: 10px;
+            margin-right: 0px;
+            padding-right: 0px;
+            border-right: none;
+            padding-top: 13px;
+            display: block;
+        }
+        /* ========== footer area ends ============== */
+}
+/* =============== 767 px area ends ========= */
+/*=============== 767-991 px area starts ===================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu_text{
+        display: none;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        background: black;
+        width: 100%;
+    }
+    .menu_icon a.res-1{
+        display: none;
+    }
+    .left_h,.right_h{
+        display: none;
+    }
+    .menu_btn{
+        display: block;
+        margin-top:55px;
+        color: #ffffff;
+        font-size: 25px;
+    }
+    .logo{
+        width: 100px;
+        margin-top:50px;
+    }
+    .menu_text ul{
+        display: block;
+    }
+    .menu_text ul a{
+        padding: 10px 0 10px 10px;
+        display: block;
+    }
+    .header_content h4{
+        font-size: 16px;
+    }
+    .header_content p{
+        font-size: 10px;
+        margin:0 1%;
+        margin-bottom: 52px;
+    }
+    .header_content a{
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+    .header_dots{
+        margin-left:27%;
+    }
+    /* ========== service area starts =-=======*/
+    .service_area{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* ========== service area ends =-=======*/
+    /* ====== ideas area starts ========= */
+    .ideas_head h2{
+        font-size: 20px;
+    }
+    .ideas_head p{
+        font-size: 10px;
+    }
+    .ideas_img{
+        max-width: 55%;
+        height: 150px;
+    }
+    .container{
+        /* background: red; */
+    }
+    .ides_sub{
+        height: 150px;
+        top: 10px;
+        left: -41%;
+    }
+    .ides_sub2{
+        height: 150px;
+        top: 10px;
+        right: -41%;
+    }
+    .ides_left h2{
+        font-size: 12px;
+    }
+    .ides_left p{
+        font-size: 10px;
+    }
+    .ides_right a{
+        padding: 10px 14px;
+        font-size: 10px;
+    }
+    .ides_fot{
+        height: 100px;
+    }
+    .ides_left{
+        margin-top: 30px;
+    }
+    .ides_right{
+        margin-top: 30px;
+    }
+        /* ====== ideas area ends ========= */
+        .latest_head h2{
+            font-size: 20px;
+        }
+        .latest_head p{
+            font-size: 10px;
+        }
+        .latest_img{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-row-gap: 30px;
+        }
+        .latest_menu ul{
+            display: block;
+        }
+        .latest_menu ul a{
+            margin-left: 0;
+            margin-bottom: 10px;
+        }
+        .latest_btn a{
+            padding: 10px 20px;
+            font-size: 10px;
+        }
+        /* ========== latest area starts */
+        /* ===========vider area starts ========= */
+        .video_area h2{
+            font-size: 20px;
+        }
+        .video_area p{
+            font-size: 10px;
+        }
+        .video_area a{
+            font-size: 10px;
+        }
+        /* ===========vider area ends ========= */
+        /* =========== excelent area starts =========== */
+        .excelent_area{
+            grid-template-columns: 1fr 1fr;
+            
+        }
+        .excelent_right{
+            padding-top: 120px;
+        }
+        .excelent_head h2{
+            font-size: 20px;
+        }
+        .excelent_head p{
+            font-size: 10px;
+        }
+        .single_ex_con p{
+            font-size: 10px;
+        }
+        .single_ex_con i{
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+            font-size: 12px;
+        }
+        /* =========== excelent area ends =========== */
+        /* ============ details area starts =====*/
+        .details_area{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+        .single_details{
+            text-align: center;
+            margin: 50px 0 40px;
+        }
+        .single_details img{
+            width: 20px;
+        }
+        .single_details a{
+            font-size: 20px;
+        }
+        .single_details p{
+            font-size: 8px;
+        }
+        /* ========= details area ends ======== */
+        /* =========== recent area starts ======= */
+        .recent_head h2{
+            font-size: 20px;
+        }
+        .recent_head p{
+            font-size: 10px;
+        }
+        .recent_all{
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 50px;
+            margin: 10%;
+        }
+        /* =========== recent area ends ======= */
+        /* ======== company area starts ========= */
+        .company_area{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-column-gap: 30px;
+            grid-row-gap: 50px;
+        }
+        /* ======== company area ends ========= */
+        /* ======== footer menu area starts ========== */
+        .footer_menu_area{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 30px;
+            padding-bottom: 100px;
+        }
+        .footer_left img{
+            width: 100px;
+        }
+        .footer_left p{
+            font-size: 10px;
+        }
+        .footer_read a{
+            font-size: 10px;
+        }
+        .footer_read i{
+            margin-top: 2px;
+            font-size: 10px;
+        }
+        .footer_left2 h2,
+        .footer_middle h2,
+        .footer_right h2{
+            font-size: 18px;
+        }
+        .footer_left2 span,
+        .footer_middle span{
+            font-size: 10px;
+        }
+        .footer_left2 h2,
+        .footer_middle h2,
+        .footer_right h2{
+            margin: 50px 0 32px;
+        }
+        .footer_left img{
+            width: 190px;
+            margin: 50px 0 25px;
+        }
+        /* ======== footer menu area ends ========== */
+        /* ======= footer area strats =========*/
+        .footer_area{
+            display: flex;
+            justify-content: space-around;
+            line-height:20px;
+            padding: 20px 0;
+        }
+        .footer_l_left ul{
+            display: block;
+        }
+        .footer_l_left a{
+            font-size: 10px;
+            margin-right: 0px;
+            padding-right: 0px;
+            border-right: none;
+            padding-top: 13px;
+            display: block;
+        }
+        /* ========== footer area ends ============== */
+}
+/* =============== 767 px area ends ========= */
+/* =========== 992px area starts =============== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .menu_text{
+        display: none;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        background: black;
+        width: 100%;
+    }
+    .menu_icon a.res-1{
+        display: none;
+    }
+    .left_h,.right_h{
+        display: none;
+    }
+    .menu_btn{
+        display: block;
+        margin-top:55px;
+        color: #ffffff;
+        font-size: 25px;
+    }
+    .logo{
+        width: 100px;
+        margin-top:50px;
+    }
+    .menu_text ul{
+        display: block;
+    }
+    .menu_text ul a{
+        padding: 10px 0 10px 10px;
+        display: block;
+    }
+    /* latest area */
+    .latest_img{
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 30px;
+    }
+    /* latest */
+    .excelent_area{
+        padding-top: 50px;
+    }
+    .excelent_right{
+        padding-bottom: 50px;
+        padding-top: 0px;
+    }
+   /* recent */
+   .recent_all{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 50px;
+    }
+}
+
